@@ -1,0 +1,24 @@
+{
+  "name": "feedbackpulse",
+  "displayName": "FeedbackPulse",
+  "version": "1.0.0",
+  "description": "Connect Cursor to FeedbackPulse to read employee survey results, eNPS, performance review progress, recognition and employee data.",
+  "author": {
+    "name": "FeedbackPulse (Hindcast LLC)",
+    "email": "support@feedbackpulse.com"
+  },
+  "homepage": "https://feedbackpulse.com",
+  "repository": "https://github.com/FeedbackPulseApp/feedbackpulse-plugin",
+  "license": "MIT",
+  "keywords": [
+    "feedbackpulse",
+    "employee-surveys",
+    "enps",
+    "pulse-surveys",
+    "performance-reviews",
+    "people-ops",
+    "hr",
+    "mcp"
+  ],
+  "logo": "assets/logo.svg"
+}

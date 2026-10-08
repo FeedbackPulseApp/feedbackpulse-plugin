@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 134 148" role="img" aria-labelledby="feedbackpulse-icon-title feedbackpulse-icon-desc">
+    <title id="feedbackpulse-icon-title">FeedbackPulse logo icon</title>
+    <desc id="feedbackpulse-icon-desc">The FeedbackPulse brand mark used on the product website and marketing materials.</desc>
+    <path fill="#2563eb" d="M133.92 97.59V49.15c0-8.91-4.75-17.14-12.46-21.59L79.51 3.34c-7.71-4.45-17.22-4.45-24.93 0L12.63 27.56C4.91 32.01.16 40.24.16 49.15v48.44c0 8.91 4.75 17.14 12.46 21.59l41.95 24.22c7.71 4.45 17.22 4.45 24.93 0l41.95-24.22c7.71-4.45 12.46-12.68 12.46-21.59Z"/>
+    <path fill="#263fa9" d="M0 81.49v18.74c0 7.17 3.82 13.79 10.03 17.38l46.81 27.03c6.21 3.58 13.86 3.58 20.07 0l46.81-27.03c6.21-3.58 10.03-10.21 10.03-17.38V81.49c0-4.69-3.8-8.48-8.48-8.48H8.48C3.8 73.01 0 76.8 0 81.49Z"/>
+    <circle cx="66.8" cy="72.84" r="27.36" fill="#60a5fa"/>
+    <path fill="#fff" d="M66.8 100.2c-15.03 0-27.22-12.12-27.35-27.11H21.86c.13 24.71 20.2 44.7 44.94 44.7s44.81-19.99 44.94-44.7H94.15c-.13 15-12.32 27.11-27.35 27.11Z"/>
+    <path fill="#263fa9" d="M66.8 100.2c15.03 0 27.22-12.12 27.35-27.11h-54.7c.13 15 12.32 27.11 27.35 27.11Z"/>
+</svg>

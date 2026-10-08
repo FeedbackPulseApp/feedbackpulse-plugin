@@ -1,0 +1,7 @@
+{
+  "mcpServers": {
+    "feedbackpulse": {
+      "url": "https://app.feedbackpulse.com/mcp"
+    }
+  }
+}

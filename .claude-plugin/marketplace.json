@@ -1,0 +1,22 @@
+{
+  "name": "feedbackpulse",
+  "owner": {
+    "name": "FeedbackPulse (Hindcast LLC)"
+  },
+  "metadata": {
+    "description": "FeedbackPulse skills and MCP connection for Claude Code",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "feedbackpulse",
+      "displayName": "FeedbackPulse",
+      "description": "Connect Claude Code to FeedbackPulse to read employee survey results, eNPS, performance review progress, recognition and employee data.",
+      "version": "1.0.0",
+      "author": {
+        "name": "FeedbackPulse (Hindcast LLC)"
+      },
+      "source": "./plugins/feedbackpulse"
+    }
+  ]
+}

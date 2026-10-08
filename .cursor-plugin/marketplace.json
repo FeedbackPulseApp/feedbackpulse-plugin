@@ -1,0 +1,17 @@
+{
+  "name": "feedbackpulse",
+  "owner": {
+    "name": "FeedbackPulse (Hindcast LLC)"
+  },
+  "metadata": {
+    "description": "FeedbackPulse skills and MCP connection for Cursor",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "feedbackpulse",
+      "source": "./plugins/feedbackpulse",
+      "description": "Connect Cursor to FeedbackPulse to read employee survey results, eNPS, performance review progress, recognition and employee data."
+    }
+  ]
+}

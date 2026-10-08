@@ -1,0 +1,26 @@
+{
+  "name": "feedbackpulse",
+  "description": "FeedbackPulse skills and MCP connection for Grok",
+  "owner": {
+    "name": "FeedbackPulse (Hindcast LLC)"
+  },
+  "plugins": [
+    {
+      "name": "feedbackpulse",
+      "description": "Connect Grok to FeedbackPulse to read employee survey results, eNPS, performance review progress, recognition and employee data.",
+      "category": "productivity",
+      "source": "./plugins/feedbackpulse",
+      "homepage": "https://feedbackpulse.com",
+      "keywords": [
+        "feedbackpulse",
+        "feedback pulse",
+        "feedbackpulse enps",
+        "feedbackpulse survey"
+      ],
+      "domains": [
+        "feedbackpulse.com",
+        "app.feedbackpulse.com"
+      ]
+    }
+  ]
+}
