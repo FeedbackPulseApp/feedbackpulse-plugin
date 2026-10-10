@@ -1,0 +1,18 @@
+{
+  "author": {
+    "name": "FeedbackPulse",
+    "url": "https://feedbackpulse.com/"
+  },
+  "homepage": "https://feedbackpulse.com/",
+  "name": "feedbackpulse-surveys-enps",
+  "displayName": "FeedbackPulse Surveys & eNPS",
+  "version": "1.0.0",
+  "description": "Design employee surveys and optional eNPS before sign-in. Review the complete design, then save an approved template or unlaunched draft.",
+  "license": "LicenseRef-FeedbackPulse-Proprietary",
+  "keywords": [
+    "employee-surveys",
+    "engagement",
+    "enps",
+    "people-operations"
+  ]
+}
