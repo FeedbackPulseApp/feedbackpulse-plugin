@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "feedbackpulse-surveys": {
+      "type": "http",
+      "url": "https://app.feedbackpulse.com/mcp/employee-surveys/claude"
+    }
+  }
+}

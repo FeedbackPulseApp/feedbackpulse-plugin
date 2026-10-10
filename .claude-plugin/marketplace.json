@@ -5,7 +5,7 @@
   },
   "metadata": {
     "description": "FeedbackPulse skills and MCP connection for Claude Code",
-    "version": "1.0.0"
+    "version": "1.1.0"
   },
   "plugins": [
     {
@@ -17,6 +17,17 @@
         "name": "FeedbackPulse (Hindcast LLC)"
       },
       "source": "./plugins/feedbackpulse"
+    },
+    {
+      "name": "feedbackpulse-surveys-enps",
+      "displayName": "FeedbackPulse Surveys & eNPS",
+      "description": "Design employee surveys and optional eNPS before sign-in. Review the complete design, then save an approved template or unlaunched draft.",
+      "version": "1.0.0",
+      "author": {
+        "name": "FeedbackPulse",
+        "url": "https://feedbackpulse.com/"
+      },
+      "source": "./plugins/feedbackpulse-surveys-enps"
     }
   ]
 }
