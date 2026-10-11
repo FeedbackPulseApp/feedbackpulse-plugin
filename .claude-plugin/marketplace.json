@@ -1,33 +1,40 @@
 {
   "name": "feedbackpulse",
   "owner": {
-    "name": "FeedbackPulse (Hindcast LLC)"
+    "name": "FeedbackPulse",
+    "email": "support@feedbackpulse.com",
+    "url": "https://feedbackpulse.com/"
   },
   "metadata": {
-    "description": "FeedbackPulse skills and MCP connection for Claude Code",
-    "version": "1.1.0"
+    "description": "FeedbackPulse plugins for Claude: design employee engagement, pulse and eNPS surveys, and read survey results, eNPS and review progress.",
+    "version": "1.2.0"
   },
   "plugins": [
     {
-      "name": "feedbackpulse",
-      "displayName": "FeedbackPulse",
-      "description": "Connect Claude Code to FeedbackPulse to read employee survey results, eNPS, performance review progress, recognition and employee data.",
-      "version": "1.0.0",
-      "author": {
-        "name": "FeedbackPulse (Hindcast LLC)"
-      },
-      "source": "./plugins/feedbackpulse"
-    },
-    {
       "name": "feedbackpulse-surveys-enps",
-      "displayName": "FeedbackPulse Surveys & eNPS",
-      "description": "Design employee surveys and optional eNPS before sign-in. Review the complete design, then save an approved template or unlaunched draft.",
-      "version": "1.0.0",
+      "displayName": "FeedbackPulse Employee Engagement Surveys & eNPS",
+      "description": "Design employee engagement surveys, pulse surveys and eNPS surveys in Claude, no account needed. Review every question, then save the approved survey to FeedbackPulse as a template or draft.",
+      "version": "1.1.0",
       "author": {
         "name": "FeedbackPulse",
         "url": "https://feedbackpulse.com/"
       },
+      "category": "human-resources",
+      "tags": ["employee-engagement-survey", "pulse-survey", "enps", "survey-design", "hr"],
       "source": "./plugins/feedbackpulse-surveys-enps"
+    },
+    {
+      "name": "feedbackpulse",
+      "displayName": "FeedbackPulse Survey Results, eNPS & Reviews",
+      "description": "Ask Claude how your last FeedbackPulse engagement survey went. Read survey results, eNPS trends, comment themes, performance review progress and recognition, scoped to your role.",
+      "version": "1.1.0",
+      "author": {
+        "name": "FeedbackPulse",
+        "url": "https://feedbackpulse.com/"
+      },
+      "category": "human-resources",
+      "tags": ["employee-engagement-software", "survey-results", "enps", "performance-reviews", "hr"],
+      "source": "./plugins/feedbackpulse"
     }
   ]
 }

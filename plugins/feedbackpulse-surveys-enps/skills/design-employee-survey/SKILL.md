@@ -1,6 +1,6 @@
 ---
 name: design-employee-survey
-description: Design an English employee survey anonymously, review and refine it, then optionally save the exact approved template or unlaunched draft through FeedbackPulse.
+description: Design an English employee engagement, pulse or eNPS survey without an account, review and refine every question, then optionally save the approved survey to FeedbackPulse as a template or unlaunched draft.
 ---
 
 # Design an employee survey

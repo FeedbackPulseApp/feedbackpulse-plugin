@@ -1,14 +1,45 @@
-# FeedbackPulse plugin
+# FeedbackPulse plugins for Claude, Cursor and Grok
 
-This repo holds the [FeedbackPulse](https://feedbackpulse.com) plugin for [Cursor](https://cursor.com), [Grok](https://grok.com) and [Claude Code](https://claude.com/claude-code).
+This repo holds the [FeedbackPulse](https://feedbackpulse.com/integrations/claude)
+plugins for employee engagement surveys, pulse surveys and eNPS. Use them to
+design a survey in your AI assistant, or to ask about the results of surveys
+you've already run.
 
-| Plugin | Use | Access |
-| --- | --- | --- |
-| [FeedbackPulse](./plugins/feedbackpulse/README.md) | Read survey results, eNPS, performance reviews, recognition and employee data | Authenticated FeedbackPulse account |
-| [FeedbackPulse Surveys & eNPS](./plugins/feedbackpulse-surveys-enps/README.md) | Design and preview employee surveys, then optionally save the exact approved template or unlaunched draft | Anonymous preview; optional sign-in with `survey-design:persist` for saving |
+| Plugin | What it does | Account needed | Where |
+| --- | --- | --- | --- |
+| [FeedbackPulse Employee Engagement Surveys & eNPS](./plugins/feedbackpulse-surveys-enps/README.md) | Design and refine employee engagement, pulse and eNPS surveys, then optionally save the approved survey as a template or unlaunched draft | None to design. A FeedbackPulse admin account to save | Claude |
+| [FeedbackPulse Survey Results, eNPS & Reviews](./plugins/feedbackpulse/README.md) | Read survey results, eNPS trends, comment themes, performance review progress and recognition | A FeedbackPulse account | Claude, Cursor, Grok |
 
-Each plugin's README covers install, sign-in, usage and privacy. In Claude Code, add this marketplace with `/plugin marketplace add FeedbackPulseApp/feedbackpulse-plugin`, then install the survey designer with `/plugin install feedbackpulse-surveys-enps@feedbackpulse`.
+## Install in Claude Code
 
-FeedbackPulse Surveys & eNPS uses its own [proprietary license](./plugins/feedbackpulse-surveys-enps/LICENSE), which permits authorized official marketplace distribution. The repository's MIT license applies to the existing FeedbackPulse plugin and marketplace files.
+```
+/plugin marketplace add FeedbackPulseApp/feedbackpulse-plugin
+/plugin install feedbackpulse-surveys-enps@feedbackpulse
+/plugin install feedbackpulse@feedbackpulse
+```
 
-For the full MCP docs, including Claude Desktop and Claude.ai setup, see [feedbackpulse.com/help/integrations/mcp-overview](https://feedbackpulse.com/help/integrations/mcp-overview/).
+Each plugin's README covers sign-in, examples and privacy. For Claude Desktop
+and Claude.ai setup, see the
+[FeedbackPulse MCP docs](https://feedbackpulse.com/help/integrations/mcp-overview/).
+
+## About FeedbackPulse
+
+FeedbackPulse is employee engagement software for growing teams. It covers:
+
+- pulse surveys
+- eNPS
+- anonymous engagement surveys
+- 360 feedback
+- performance reviews
+- recognition
+
+It's free for teams of up to 10 people. Learn more at
+[feedbackpulse.com](https://feedbackpulse.com).
+
+## License
+
+FeedbackPulse Employee Engagement Surveys & eNPS uses its own
+[proprietary license](./plugins/feedbackpulse-surveys-enps/LICENSE), which
+permits authorized official marketplace distribution. The repository's MIT
+license applies to the FeedbackPulse Survey Results, eNPS & Reviews plugin and
+the marketplace files.

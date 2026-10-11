@@ -1,8 +1,8 @@
 {
   "name": "feedbackpulse",
-  "displayName": "FeedbackPulse",
-  "version": "1.0.0",
-  "description": "Connect Grok to FeedbackPulse to read employee survey results, eNPS, performance review progress, recognition and employee data.",
+  "displayName": "FeedbackPulse Survey Results, eNPS & Reviews",
+  "version": "1.1.0",
+  "description": "Ask Claude how your last FeedbackPulse engagement survey went. Read survey results, eNPS trends, comment themes, performance review progress and recognition, scoped to your role.",
   "author": {
     "name": "FeedbackPulse (Hindcast LLC)",
     "email": "support@feedbackpulse.com"
