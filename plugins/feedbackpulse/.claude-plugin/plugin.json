@@ -1,13 +1,33 @@
 {
   "name": "feedbackpulse",
-  "displayName": "FeedbackPulse",
-  "version": "1.0.0",
-  "description": "Connect Claude Code to FeedbackPulse to read employee survey results, eNPS, performance review progress, recognition and employee data.",
+  "displayName": "FeedbackPulse Survey Results, eNPS & Reviews",
+  "version": "1.1.0",
+  "description": "Ask Claude how your last FeedbackPulse engagement survey went. Read survey results, eNPS trends, comment themes, performance review progress and recognition, scoped to your role.",
   "author": {
-    "name": "FeedbackPulse (Hindcast LLC)",
-    "email": "support@feedbackpulse.com"
+    "name": "FeedbackPulse",
+    "email": "support@feedbackpulse.com",
+    "url": "https://feedbackpulse.com/"
   },
-  "homepage": "https://feedbackpulse.com",
+  "homepage": "https://feedbackpulse.com/integrations/claude",
   "repository": "https://github.com/FeedbackPulseApp/feedbackpulse-plugin",
-  "license": "MIT"
+  "documentationUrl": "https://feedbackpulse.com/help/integrations/mcp-overview/",
+  "supportUrl": "https://feedbackpulse.com/support",
+  "privacyPolicyUrl": "https://feedbackpulse.com/privacy-policy",
+  "termsOfServiceUrl": "https://feedbackpulse.com/terms-of-service",
+  "icon": "./assets/logo.png",
+  "license": "MIT",
+  "keywords": [
+    "feedbackpulse",
+    "employee-engagement-software",
+    "employee-engagement",
+    "survey-results",
+    "enps",
+    "pulse-survey",
+    "performance-reviews",
+    "peer-reviews",
+    "employee-recognition",
+    "people-analytics",
+    "hr",
+    "mcp"
+  ]
 }

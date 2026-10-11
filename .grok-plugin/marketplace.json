@@ -1,21 +1,29 @@
 {
   "name": "feedbackpulse",
-  "description": "FeedbackPulse skills and MCP connection for Grok",
+  "description": "FeedbackPulse survey results, eNPS and reviews for Grok",
   "owner": {
-    "name": "FeedbackPulse (Hindcast LLC)"
+    "name": "FeedbackPulse"
   },
   "plugins": [
     {
       "name": "feedbackpulse",
-      "description": "Connect Grok to FeedbackPulse to read employee survey results, eNPS, performance review progress, recognition and employee data.",
+      "description": "Ask Claude how your last FeedbackPulse engagement survey went. Read survey results, eNPS trends, comment themes, performance review progress and recognition, scoped to your role.",
       "category": "productivity",
       "source": "./plugins/feedbackpulse",
-      "homepage": "https://feedbackpulse.com",
+      "homepage": "https://feedbackpulse.com/integrations/claude",
       "keywords": [
         "feedbackpulse",
-        "feedback pulse",
-        "feedbackpulse enps",
-        "feedbackpulse survey"
+        "employee-engagement-software",
+        "employee-engagement",
+        "survey-results",
+        "enps",
+        "pulse-survey",
+        "performance-reviews",
+        "peer-reviews",
+        "employee-recognition",
+        "people-analytics",
+        "hr",
+        "mcp"
       ],
       "domains": [
         "feedbackpulse.com",
