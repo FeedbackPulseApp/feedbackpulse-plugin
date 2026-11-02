@@ -7,10 +7,10 @@
   "plugins": [
     {
       "name": "feedbackpulse",
-      "description": "Ask Claude how your last FeedbackPulse engagement survey went. Read survey results, eNPS trends, comment themes, performance review progress and recognition, scoped to your role.",
+      "description": "Ask your AI assistant how your last FeedbackPulse engagement survey went. Read survey results, eNPS trends, comment themes, performance review progress and recognition, scoped to your role.",
       "category": "productivity",
       "source": "./plugins/feedbackpulse",
-      "homepage": "https://feedbackpulse.com/integrations/claude",
+      "homepage": "https://feedbackpulse.com/integrations",
       "keywords": [
         "feedbackpulse",
         "employee-engagement-software",
