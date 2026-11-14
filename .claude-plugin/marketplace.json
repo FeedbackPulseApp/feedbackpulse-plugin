@@ -7,14 +7,14 @@
   },
   "metadata": {
     "description": "FeedbackPulse plugins for Claude: design employee engagement, pulse and eNPS surveys, and read survey results, eNPS and review progress.",
-    "version": "1.2.0"
+    "version": "1.2.1"
   },
   "plugins": [
     {
       "name": "feedbackpulse-surveys-enps",
       "displayName": "FeedbackPulse Employee Engagement Surveys & eNPS",
       "description": "Design employee engagement surveys, pulse surveys and eNPS surveys in Claude, no account needed. Review every question, then save the approved survey to FeedbackPulse as a template or draft.",
-      "version": "1.1.0",
+      "version": "1.1.1",
       "author": {
         "name": "FeedbackPulse",
         "url": "https://feedbackpulse.com/"

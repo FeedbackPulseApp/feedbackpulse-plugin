@@ -1,7 +1,7 @@
 {
   "name": "feedbackpulse-surveys-enps",
   "displayName": "FeedbackPulse Employee Engagement Surveys & eNPS",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Design employee engagement surveys, pulse surveys and eNPS surveys in Claude, no account needed. Review every question, then save the approved survey to FeedbackPulse as a template or draft.",
   "author": {
     "name": "FeedbackPulse",
